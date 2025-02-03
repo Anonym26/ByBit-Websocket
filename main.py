@@ -38,4 +38,4 @@ if __name__ == "__main__":
         while True:
             time.sleep(1)
     except KeyboardInterrupt:
-        logging.info("Работа программы завершена вручную.")
+        logging.info("Работа программы завершена вручную")

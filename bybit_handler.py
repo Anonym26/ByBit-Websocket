@@ -40,7 +40,7 @@ class BybitPublic:
 
         :param message: Сообщение, полученное от WebSocket, содержащее данные ордербука.
         """
-        print(message)
+        print("Данные ордербука:", message)
 
 
 class BybitPrivate:
@@ -76,7 +76,7 @@ class BybitPrivate:
 
         :param message: Сообщение, полученное от WebSocket, содержащее данные о позиции.
         """
-        print(message)
+        print("Данные о позиции:", message)
 
     def subscribe_wallet(self, callback):
         """
@@ -93,4 +93,4 @@ class BybitPrivate:
 
         :param message: Сообщение, полученное от WebSocket, содержащее данные о кошельке.
         """
-        print(message)
+        print("Данные о кошельке:", message)

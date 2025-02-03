@@ -2,7 +2,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 from colorlog import ColoredFormatter
 
-def setup_logger(log_file="app.log", max_bytes=10 * 1024 * 1024, backup_count=5):
+def setup_logger(log_file="log.log", max_bytes=10 * 1024 * 1024, backup_count=5):
     """
     Настройка логирования для проекта.
     :param log_file: Имя файла для сохранения логов.
